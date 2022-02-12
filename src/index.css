@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  flex-direction:row;
+  margin-top: 10px;
+}
+.header-image{
+  background: url("./Header.jpg");
+  background-position-x: 50px;
+  min-height: 100px;
+  min-width: 800px;
+  border-radius: 20px 0px 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  position: relative;
+}
+.text-header {
+  padding-left: 50px;
+  padding-right: 20px;
+  position: relative;
+  color: white;
+  display: flex;
+  margin-right: 0px;
+  text-align: center;
+  font-size: 12px;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(26, 26, 31) 49%,
+    rgb(55, 57, 58) 100%
+  );
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-top: 10px;
+  border-radius: 0px 0px 20px 0px;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  padding: 40px;
+}
+
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  width: 350px;
+  min-width: 350px;
+  margin-bottom: 30px;
+}
+
